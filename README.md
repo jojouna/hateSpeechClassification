@@ -2,7 +2,7 @@
 This page contains the ipynb file for hate speech classification conducted as an assignment for NLP study. You can find a short summary of this study here. If you wish to see the whole code, please see the attached ipynb file.
 
 Dataset has enough texts (31060). The number of hateful and non-hateful texts are balanced (Each 15530).
-The dataset cntains various hashtags, mentions, emojis, special characters etc such are common on social media. It also has corrupted texts (e.g. ð, â¦).
+The dataset contains various hashtags, mentions, emojis, special characters etc such are common on social media. It also has corrupted texts (e.g. ð, â¦).
 Majority of words from both single and 2-grams were all stopwords that needed to be extracted.
 
 Text preprocessing was performed to convert emojis into meaningful texts, expand contractions (e.g. can't -> cannot), apply tokenizer using TreebankWordTokenizer, remove stopwords and punctutations, and Lemmatize.
